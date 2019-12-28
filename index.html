@@ -25,15 +25,16 @@
                 font-size: 30px; 
             }
             p{
-                color:red;
+                color:dodgerblue;
                 font-family: serif;
                 font-style: italic;
                 font-weight: bold;
+                margin: 5px;
             }
             
             span{
                 font-weight: bold;
-                color: black;
+                color: hsl(0, 100%, 50%);
                 font-size: 29px;
             }
             table{
@@ -42,7 +43,7 @@
             li{
                 font-family: sans-serif;
             }
-            div.groove{
+            .groove{
                 border-style: groove;
             }
             div{
@@ -58,6 +59,24 @@
                 display: inline-block;
                 
             }
+            .games{
+                display: inline-block;
+                border:20px solid rgb(230,138,230);
+                border-style: double;
+                border-width: 5px;
+                border-color: rgb(230,138,230);
+                border-radius: 20px;
+                padding: 20px;
+
+            }
+            .intro{
+                text-align: center;
+                border-left: 30px solid rgba(255,99,71,1);
+                background-color: #f0f0f0;
+                
+                border-radius:10px;
+    
+            }
             /*div>span{
                 background-color: green;
                 display: block;
@@ -68,20 +87,14 @@
         </style>
     </head>
     <body>
-        <p>Deal with <span style="maroon">RUN</span> button</p>
+        <p class="intro">Deal with <span>RUN</span> button</p>
         <p class="tech"> I'm a tech <span style="color: rgb(129,131,254)">Enthusiast</span></p>
         <p class="gamer"> I am <span class="newbie">Newbie</span></p>
         <pre><h3>Let's write &lt;html&gt; tag as text</h3></pre>
-        <!--<h1 style="color:red">Deal with RUN button</h1>
-        <h2 style="color:green">Deal with RUN button</h2>
-        <h3 style="color:blue">Deal with RUN button</h3>
-        <h4 style="color:violet"> Even Death I'm the Hero </h4>
-        <h5 style="color:maroon">Deal with RUN button</h5>
-        <h6 style="color:pink">Deal with RUN button</h6>
-        <p style="color:orange">P tag is used for paragraph....!</p>
+        <!--<p style="color:orange">P tag is used for paragraph....!</p>
         <p style="color:blue">this is                     another paragraph....which !(has) huge space</p>
-        <pre><p>this is                     another paragraph....which has huge space</p></pre>-->
-        <!--<p>Non-&nbsp;breaking space..</p>
+        <pre><p>this is                     another paragraph....which has huge space</p></pre>
+        <p>Non-&nbsp;breaking space..</p>
         <p style="color:maroon">Using &amp;</p>
         <img src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png"
         alt="iBhubs_logo">
@@ -103,7 +116,7 @@
                 <td>Thurumu</td>
             </tr>
         </table>-->
-        <ul>
+        <ul class="games">
             <li>Asphalt</li>
             <li>PUBG</li>
             <li>MC5</li>
