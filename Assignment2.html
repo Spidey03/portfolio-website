@@ -1,15 +1,121 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset='UFT-8'>
         <meta http-eequiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=devicec-width,initial-scale=1, shrink-to-fit-width">
-        <link rel="stylesheer" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
         <script type="text/javascript" src="bootstrap/jquery.min.js"></script>
         <script type="text/javascript" src="bootstrap/popper.min.js"></script>
         <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+        <style>
+            .dodgerblue {
+                background-color: dodgerblue;
+            }
+
+            .slateblue {
+                background-color: slateblue;
+            }
+
+            .col-height {
+                height: 50px;
+                padding-left: 1px;
+                border: 3px solid white;
+
+            }
+
+            .row {
+                border: 2px solid #ff9933;
+                margin-bottom: 2px;
+            }
+
+            .container {
+                border: 2px solid #33cc33;
+                margin: 3 2 3 2;
+            }
+
+            .yellow {
+                background-color: #ff9900;
+            }
+
+            .no_border {
+                border: none;
+            }
+
+            .contain {
+                margin-top: 5px;
+            }
+
+            .blue {
+                background-color: #4a86e8;
+            }
+
+            h3 {
+                text-align: center;
+                padding-top: 3px;
+                color: white;
+            }
+        </style>
     </head>
+
     <body>
-        <h1>Bootstrap intro..</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-height slateblue"></div>
+                <div class="col-6 col-height dodgerblue"></div>
+                <div class="col-6 col-height dodgerblue"></div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-height slateblue"></div>
+                <div class="col-4 col-height slateblue"></div>
+                <div class="col-4 col-height slateblue"></div>
+                <div class="col-3 col-height dodgerblue"></div>
+                <div class="col-3 col-height dodgerblue"></div>
+                <div class="col-3 col-height dodgerblue"></div>
+                <div class="col-3 col-height dodgerblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+                <div class="col-1 col-height slateblue"></div>
+            </div>
+        </div>
+        <div class="container contain">
+            <div class="row no_border">
+                <div class="col-9 yellow col-height">
+                    <h3>9</h3>
+                </div>
+                <div class="col-3 blue col-height">
+                    <h3>3</h3>
+                </div>
+                <div class="col-4 blue col-height">
+                    <h3>4</h3>
+                </div>
+                <div class="col-3 blue col-height">
+                    <h3>3</h3>
+                </div>
+                <div class="col-5 blue col-height">
+                    <h3>5</h3>
+                </div>
+                <div class="col-3 blue col-height">
+                    <h3>3</h3>
+                </div>
+                <div class="col-6 yellow col-height">
+                    <h3>6</h3>
+                </div>
+                <div class="col-3 blue col-height">
+                    <h3>3</h3>
+                </div>
+            </div>
+        </div>
     </body>
+
 </html>
