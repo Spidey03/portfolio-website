@@ -124,13 +124,21 @@ body {
 }
 
 .btn {
-    padding: 0px;
-    padding-left: 2px;
-    margin: 0px;
-    margin-top: 12px;
-    border: 2 px solid red;
+    width: 150px;
+    margin: auto;
     float: left;
     font-size: 18px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+
+.header,
+.btn {
+    text-align: center;
 }
 
 .grey_background {
