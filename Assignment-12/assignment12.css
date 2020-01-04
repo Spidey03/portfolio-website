@@ -44,7 +44,6 @@ body {
     font-family: arial;
     font-size: 19px;
     text-align: center;
-    padding-top: 8px;
     justify-content: center;
     margin: auto;
 }
@@ -66,20 +65,145 @@ body {
 }
 
 .head_description {
-    font-size: 50px;
+    font-size: 40px;
     font-family: arial;
-    color: black;
+    padding-top: 150px;
+    font-weight: 500;
+}
+
+.head_description2 {
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: arial;
+    display: block;
     text-align: center;
     justify-content: center;
-    display: inline;
-    font-weight: 600;
+    padding-bottom: 50px;
+    font-weight: 700;
 }
 
 .description {
     font-size: 15px;
-    padding-bottom: 15px;
+}
+
+.description2 {
+
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.mobile_img {
+    padding-top: 10%;
+    width: 100%;
+    box-shadow: 0px 5px 2px grey;
+    display: block;
+}
+
+.header_title2 {
+    font-family: arial;
+    font-size: 19px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.apps img {
+    width: 145px;
+    margin-right: 10px;
+}
+
+.apps2 img {
+    width: 145px;
+    margin-left: 10px;
+}
+
+.head_description3 {
+    font-size: 33px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.description3 {
+    font-size: 15px;
+    display: block;
+
+}
+
+.grey_background2 {
+    background-color: #f0f0f0;
+    margin-bottom: 100px;
+}
+
+.white_background2 {
+    margin-bottom: 100px;
+    float: left;
+}
+
+.white_background23 {
+    margin-bottom: 150px;
+    float: left;
+}
+
+.white_background {
+    margin-bottom: 100px;
+}
+
+.grey_background2 img {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.white_background2 img {
+    width: 100%;
+}
+
+.img_width {
+    width: 100%;
+}
+
+.center {
+    font-size: 33px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.center img {
+    width: 60px;
     display: inline;
-    padding-top: 15px;
+}
+
+.center btn {
+    position: fixed;
+    left: 100px;
+    margin-left: 50px;
+}
+
+.org1 {
+    float: left;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.org2 {
+    float: left;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.margin_bot {
+    margin-bottom: 100px;
+}
+
+.image {
+    width: 100%;
 }
 
 .height_descr {}
@@ -96,12 +220,16 @@ body {
 
 }
 
-.head_descr_col {
-    padding-top: 150px;
+
+
+.btn .d-none {
+    padding-top: 100px;
+    border: 2px solid red;
 }
 
 .experience {
     margin: auto;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 33px;
     font-weight: 500;
@@ -115,25 +243,24 @@ body {
     text-justify: center;
 }
 
-.apps img {
-    width: 145px;
-}
-
 .shadow_border {
     box-shadow: 0px 5px 2px grey;
 }
 
+.btn_height {
+    height: 50px;
+}
+
 .btn {
-    width: 150px;
-    margin: auto;
+    width: 155px;
+    display: inline;
+
     float: left;
     font-size: 18px;
-
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 5px;
 }
 
 .header,
@@ -146,6 +273,15 @@ body {
     margin-bottom: 150px;
 }
 
+.grey_background3 {
+    background-color: #f0f0f0;
+    margin-top: 100px;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: arial;
+    padding-bottom: 50px;
+}
+
 .experience img {
     width: 100%;
 }
@@ -155,20 +291,6 @@ body {
 }
 
 
-.head_description2 {
-    font-size: 30px;
-    font-family: arial;
-    color: black;
-    text-align: center;
-    justify-content: center;
-    display: inline;
-    font-weight: 600;
-}
-
-.org {
-    float: left;
-    margin-left: -10px;
-}
 
 .sect_img {
     width: 100%;
@@ -186,25 +308,13 @@ body {
     padding: 10px;
 }
 
-.mobile_img {
-    padding-top: 10%;
-    width: 100%;
-
-    display: block;
-}
-
-.d-md-none {
-    height: 100px;
-    margin: auto;
-}
-
 .col-height {
     height: 500px;
     padding-bottom: 50px;
 }
 
-.center {
-    margin: auto;
-
-    padding-left: 200px;
+img {
+    display: inline;
 }
+
+.dropdown {}
