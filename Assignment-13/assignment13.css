@@ -12,6 +12,10 @@
     font-size: 15px;
 }
 
+a img {
+    filter: invert(100%);
+}
+
 navbar-brand img {
     filter: invert(100%);
 }
@@ -220,6 +224,10 @@ pre {
     right: 0;
 }
 
+li a {
+    display: inline;
+}
+
 /*
 .col-2,
 .col-6,
@@ -229,3 +237,11 @@ pre {
     border: 2px solid red;
 }
 */
+
+.nav_item a {
+    color: white;
+}
+
+.nav-item {
+    display: inline;
+}
