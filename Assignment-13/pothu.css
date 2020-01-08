@@ -1,0 +1,41 @@
+nav {
+    color: white;
+
+}
+
+nav img {
+    filter: invert(100%);
+    display: inline;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul img {
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+input {
+    color: white;
+    height: 10px;
+}
+
+.invert {
+    filter: invert(50%);
+}
+
+.second {
+    color: black;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}

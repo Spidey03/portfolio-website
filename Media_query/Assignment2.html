@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=devicec-width,initial-scale=1, shrink-to-fit-width">
+        <style type="text/css">
+            body {
+                align-items: center;
+                justify-content: center;
+            }
+
+            div {
+                display: inline-block;
+                height: 150px;
+            }
+
+            .blue {
+                background-color: blue;
+
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .maroon {
+                background-color: maroon;
+            }
+
+            .green {
+                background-color: green;
+            }
+
+            @media (min-width:0px) {
+                div {
+
+                    width: 99%;
+                    margin-left: 3px;
+                    margin-bottom: 3px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                div {
+                    width: 48%;
+                    margin-left: 9px;
+                    margin-bottom: 9px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                div {
+                    width: 24%;
+                    margin-left: 6px;
+                    margin-bottom: 6px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="blue"></div>
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="maroon"></div>
+    </body>
+
+</html>
