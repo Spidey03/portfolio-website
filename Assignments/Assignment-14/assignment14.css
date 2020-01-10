@@ -1,0 +1,29 @@
+.cont {
+
+    margin-left: 50px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.heading2 {
+    font-size: 30px;
+    font-weight: 350;
+    margin-bottom: 0px;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+@media(max-width:768px) {
+    .grey {
+        display: none;
+    }
+    .cont {
+        margin-left: 0px;
+    }
+}

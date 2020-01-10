@@ -1,0 +1,183 @@
+html,
+body {
+    height: 100%;
+}
+
+body {}
+
+p {
+    font-weight: 500;
+    color: black;
+}
+
+.full_height {
+    height: 100%;
+    width: 100%;
+}
+
+.half_height {
+    height: 50%;
+    width: 100%;
+}
+
+.navbar_height {
+    height: 50px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: black;
+}
+
+.img_round {
+    height: 75%;
+    align-items: center;
+    text-align: center;
+}
+
+.img_round img {
+    border-radius: 10cm;
+    height: 100%;
+}
+
+.me_main {
+    align-items: center;
+    text-align: center;
+}
+
+.me_main .name {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: red;
+}
+
+.cyan {
+    color: cyan;
+    font-weight: 800;
+}
+
+.main_name {
+    color: black;
+    font-weight: 900;
+
+}
+
+
+
+.black {
+    background-color: black;
+    text-align: center;
+    color: cyan;
+}
+
+.center {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 150%;
+}
+
+.center p,
+.center pre {
+    color: cyan;
+    display: inline;
+}
+
+pre {
+    margin-top: 20px;
+    font-size: 25px;
+    display: inline;
+}
+
+
+
+.edu {
+    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thub/6/60/De_La_Salle_College_of_Saint_Benilde_Library.jpg/800px-De_La_Salle_College_of_Saint_Benilde_Library.jpg")*/
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+    font-size: 30px;
+}
+
+.edu p {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.left {
+    text-align: left;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 230%;
+    border-bottom: cyan;
+}
+
+.right {
+    text-align: right;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 250%;
+}
+
+.branch {
+    font-weight: 500;
+}
+
+.grad {
+    font-weight: 500;
+}
+
+.college {
+    font-weight: 700;
+}
+
+
+.items_center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+.items_center h1 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.items_center h1::first-letter {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.items_center h5 {
+    font-weight: 700;
+}
+
+.items_center h5::first-letter {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.items_center p {
+    font-weight: 500;
+}
+
+.items_center p::first-letter {
+    font-weight: 600;
+}
+
+.padding-top-less {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.carousel-item img {
+    display: inline-block;
+}
+
+.back_gradient {
+    background-color: #f2f2f2;
+}
