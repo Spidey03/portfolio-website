@@ -1,18 +1,35 @@
-$(function() {
-  $('.min-chart#chart-sales').easyPieChart({
-    barColor: "#4caf50",
-    onStep: function(from, to, percent) {
-      $(this.el).find('.percent').text(Math.round(percent));
+Vue.component('donutChart', {
+  template: '#donutTemplate',
+  props: ["initialValues"],
+  data() {
+    return {
+      angleOffset: 0,
+      chartData: [],
+      colors: ["#6495ED", "goldenrod", "#cd5c5c", "thistle", "lightgray"],
+      cx: 80,
+      cy: 80,
+      radius: 60,
+      sortedValues: [],
+      strokeWidth: 30,
     }
-  });
-});
-
-$(function() {
-  // instantiate the plugin
-  // update
-  $('.chart').data('easyPieChart').update(40);
-  // disable animation
-  $('.chart').data('easyPieChart').disableAnimation();
-  // enable animation
-  $('.chart').data('easyPieChart').enableAnimation();
+  },
+  computed: {
+    circumference() {
+      return 2 * Math.PI * this.radius
+    },
+    sortInitialValues() {
+      return this.sortedValues = this.initialValues.sort((a, b) => b - a)
+    }
+  },
+  mounted() {
+    this.sortInitialValues
+  }
+})
+new Vue({
+  el: "#app",
+  data() {
+    return {
+      values: [230, 308, 520, 130, 200]
+    }
+  },
 });

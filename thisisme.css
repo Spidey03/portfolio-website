@@ -5,6 +5,11 @@ body {
 
 body {}
 
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
 p {
     font-weight: 500;
     color: black;
@@ -12,12 +17,12 @@ p {
 
 .full_height {
     height: 100%;
-    width: 100%;
+
 }
 
 .half_height {
     height: 50%;
-    width: 100%;
+
 }
 
 .navbar_height {
@@ -180,4 +185,34 @@ pre {
 
 .back_gradient {
     background-color: #f2f2f2;
+}
+
+.skills {
+    background-color: black;
+}
+
+i {
+    color: red;
+    font-size: 70px;
+}
+
+.sections {
+    text-align: center;
+    justify-content: center;
+}
+
+.lang h2 {
+    margin-bottom: 10px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 2px solid white;
+}
+
+.lang p {
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    color: hsl(125, 53%, 78%);
 }
