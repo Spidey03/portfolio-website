@@ -274,6 +274,18 @@ i {
     justify-content: center;
 }
 
+.round_top_right_col {
+    height: 95%;
+    border-top-right-radius: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.top_bar_five {
+    height: 5%;
+}
+
 .round_col h1 {
     color: black;
     align-items: center;
@@ -291,4 +303,26 @@ i {
 .col {
     height: 98%;
     align-items: center;
+}
+
+.exp h1 {
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 70px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+.os i {
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    color: black;
+    font-size: 100px;
 }
