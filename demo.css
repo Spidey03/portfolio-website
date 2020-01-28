@@ -1,0 +1,215 @@
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, red, yellow, );
+    background-repeat: repeat;
+
+}
+
+body {}
+
+.white {
+    background-color: white;
+}
+
+.nav {
+    width: 20%;
+    box-shadow: 1px 0px lightgrey;
+    display: inline-block;
+    position: fixed;
+}
+
+.name {
+    font-size: 150%;
+    color: hsl(180, 100%, 30%);
+    margin: 0px;
+    font-weight: 0;
+    padding: 0px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.name-caption {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f2f2f2;
+    color: #ff6666;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav_link_text {
+    color: black;
+}
+
+.nav-item a i {
+    padding-right: 10px;
+    font-size: 23px;
+    display: inline;
+}
+
+.nav-item a p {
+    display: inline;
+    margin: auto;
+}
+
+.content {
+    background: url("https://wallpapercave.com/wp/wp1911201.jpg");
+    display: block;
+    background-size: cover;
+
+
+}
+
+.content {
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 30px;
+    color: black;
+}
+
+.content p {
+    padding-left: 30px;
+}
+
+.text-background {
+    background-color: hsl(180, 100%, 30%);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-underline {
+
+    border-bottom: 4px solid hsl(180, 100%, 30%);
+}
+
+
+.full_height {
+    height: 100%;
+}
+
+.full_width {
+    width: 80%;
+    margin-left: 20%;
+}
+
+bor {
+    border: 1px solid green;
+}
+
+.mar_left {
+    margin-left: 50px;
+}
+
+.head {
+    height: 15%;
+    font-size: 50px;
+    letter-spacing: 1px;
+    background-color: hsl(180, 100%, 30%);
+    font-weight: 200;
+    padding: 10px;
+    padding-left: 50px;
+    color: white;
+}
+
+.about_descr {
+    color: maroon;
+    font-size: 30px;
+    font-weight: 400;
+    border-left: 2px solid maroon;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about_content {
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.descr_subhead {
+    font-size: 28px;
+}
+
+.teal {
+    color: hsl(180, 100%, 30%);
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.cards {
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 1px solid grey;
+}
+
+.head_section {
+    margin: 2px;
+    border-bottom: 1px solid grey;
+    height: 80px;
+}
+
+.right_desc {
+    margin-right: 5px;
+    float: right;
+}
+
+.right_desc p {
+    padding-top: 25px;
+}
+
+.left_icon {
+    margin-left: 5px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.left_icon i {
+    font-size: 90px;
+    display: inline;
+    margin-left: 15px;
+}
+
+.left_icon p {
+    display: inline;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: hsl(180, 100%, 30%);
+}
+
+.cards_italic {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: grey;
+}
+
+.sub_head {
+    color: grey;
+    letter-spacing: 1px;
+    font-weight: 100;
+
+}
+
+.mar_left_15 {
+    margin-left: 15px;
+}
+
+ul {
+    padding: 0px;
+    margin;
+    0px;
+}
+
+.cards_footer {
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: lightgrey;
+}

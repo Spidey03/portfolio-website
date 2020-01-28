@@ -1,0 +1,61 @@
+@media (min-width:767px) {
+    .item>img {
+        width: 50%;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex_container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.item {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.html,
+.css,
+.javascript,
+.bootstrap {
+    width: 100px;
+}*/
+
+img {
+    width: 100%;
+}
+
+.javascript {
+    background-color: #009973;
+}
+
+.html {
+    background-color: dodgerblue;
+}
+
+.css {
+    background-color: purple;
+}
+
+.bootstrap {
+    background-color: orange;
+}

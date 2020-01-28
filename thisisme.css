@@ -16,6 +16,19 @@ p {
     color: black;
 }
 
+.three_div {
+    width: 33%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.two_div {
+
+    width: 50%;
+    height: 100%;
+}
+
 .full_height {
     height: 100%;
 
@@ -26,11 +39,11 @@ p {
 
 }
 
-half_width {
+.half_width {
     width: 50%;
 }
 
-full_width {
+.full_width {
     width: 100%;
 }
 
@@ -41,6 +54,8 @@ full_width {
 .navbar a {
     font-size: 20px;
     color: black;
+    font-weight: 500;
+    font-family: fantasy;
 }
 
 .img_round {
@@ -64,6 +79,12 @@ full_width {
     letter-spacing: 3px;
     font-size: 30px;
     color: red;
+    display: block;
+}
+
+.red {
+    color: red;
+    font-weight: 800;
 }
 
 .cyan {
@@ -268,10 +289,13 @@ i {
 
 .round_col {
     height: 95%;
+    margin: 0px;
+    padding: 0px;
     border-bottom-left-radius: 150px;
     align-items: center;
     text-align: center;
     justify-content: center;
+    background-color: white;
 }
 
 .round_top_right_col {
@@ -325,4 +349,67 @@ i {
     margin: 0px;
     color: black;
     font-size: 100px;
+}
+
+
+.det_heading {
+    height: 75%;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.det_heading p {
+    padding-top: 20%;
+    font-family: fantasy;
+    font-weight: 1000;
+    font-size: 80px;
+}
+
+.items_details {
+    list-style: none;
+    padding: 8px;
+    margin: 0px;
+    height: 25%;
+}
+
+.detail {
+    font-size: 23px;
+}
+
+.detail a {
+    display: inline;
+    color: dodgerblue;
+}
+
+.detail p {
+    display: inline;
+    color: dodgerblue;
+}
+
+.detail i {
+    display: inline;
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+.hobbie_head {
+    font-weight: 900;
+    font-size: 90px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.hob_item {
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hob_item p {
+    font-family: fantasy;
+    font-size: 18px;
 }

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assignment13.css" type="text/css" />
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!--
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="assets/github-logo.svg">
+          <p class="d-none d-lg-inline">Why Github?</p>
+        </a>
+        <a class="navbar-brand d-inline d-md-none" href="#">
+          <p>Sign up</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Enterprise <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Market place</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pricing
+        </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
+        <a class="navbar-brand d-none d-md-inline" href="#">
+          <p>Sign up</p>
+        </a>
+      </nav>
+    </div>--->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="assets/github-logo.svg">
+        <p class="d-none d-lg-inline">Why Github?</p></a>
+      <ul class="nav position_right bg-dark navbar-dark">
+        <li class>
+          <a class="d-lg-none nav-link" href="#">Sign in</a>
+        </li>
+        <li>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Enterprise <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Market Place</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pricing
+        </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <a class="d-none d-lg-inline nav-link" href="#">Sign in</a>
+    </nav>
+
+
+    <div class="nav_toggle">
+      <ul class="nav justify-content-center">
+        <li class="nav-item col-12 d-md-none center1">
+          <a class="nav-link active" href="#">Explore</a>
+        </li>
+        <li class="nav-item d-md-inline d-none">
+          <a class="nav-link active" href="#">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Topics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trendings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+      </ul>
+    </div>
+    <div class="tabcontent grey">
+      <p class="heading">Topics</p>
+      <p>Browse popular topics on Github</p>
+    </div>
+    <!--
+    <div class="container">
+      <div class="row center_row">
+        <div class="col-1 d-none d-md-block"></div>
+        <div class="col-12 col-md-3 topics_tab">
+          <img src="assets/opengl.png" alt="opengl">
+          <p class="heading">OpenGL</p>
+          <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+        </div>
+
+        <div class="col-12 col-md-3 topics_tab">
+          <img src="assets/flask.png" alt="Flask">
+          <p class="heading">Flask</p>
+          <p>Flask is a web framewor for Python based on the werkzeug tookit.</p>
+        </div>
+
+        <div class="col-12 col-md-3 topics_tab">
+          <img src="assets/gradle.png" alt="Gradle">
+          <p class="heading">Gradle</p>
+          <p>Gradle is an open source build tool that helps teams build automate and deliver better software,faster.</p>
+        </div>
+        <div class="col-1 d-none d-md-block"></div>
+      </div>
+    </div>
+    -->
+
+    <div class="container">
+      <div class="row center_row">
+        <div class="col-md-3 tab1 d-none d-md-inline">
+          <img src="assets/opengl.png" alt="opengl">
+          <p class="heading">OpenGL</p>
+          <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+        </div>
+        <div class="col-11 d-md-none topics_tab">
+          <img src="assets/opengl.png" alt="opengl">
+          <p class="heading">OpenGL</p>
+          <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+        </div>
+        <div class="col-md-3 d-none d-md-inline tab_left">
+          <img src="assets/flask.png" alt="Flask">
+          <p class="heading">Flask</p>
+          <p>Flask is a web framewor for Python based on the werkzeug tookit.</p>
+        </div>
+        <div class="col-11 d-md-none topics_tab">
+          <img src="assets/flask.png" alt="Flask">
+          <p class="heading">Flask</p>
+          <p>Flask is a web framewor for Python based on the werkzeug tookit.</p>
+        </div>
+        <div class="col-md-3 d-none d-md-inline tab_left">
+          <img src="assets/gradle.png" alt="Gradle">
+          <p class="heading">Gradle</p>
+          <p>Gradle is an open source build tool that helps teams build automate and deliver better software,faster.</p>
+        </div>
+        <div class="col-11 d-md-none topics_tab">
+          <img src="assets/gradle.png" alt="Gradle">
+          <p class="heading">Gradle</p>
+          <p>Gradle is an open source build tool that helps teams build automate and deliver better software,faster.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="featured row">
+      <div class="col-2 d-none d-md-block"></div>
+      <div class="col-12 col-lg-6">
+        <div class="row">
+          <div class="col-12">
+            <p class="heading_featured">All featured topics</p>
+          </div>
+        </div>
+        <div class="row line">
+          <h1 class="col-2 grey round center">#</h1>
+          <div class="col-10 col-md-8">
+            <p class="sub_head">3D</p>
+            <p>
+              3d modelling is the process of virtually developing the surface and structure of a 3d object.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <h1 class="col-2 grey round center">#</h1>
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Ajax</p>
+            <p>
+              Ajax is technique for creating interactive web applications.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <h1 class="col-2 grey round center">#</h1>
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Algorithm</p>
+            <p>
+              Alogorithms are self-contained sequences that carry out variety of tasks.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/amphp.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Amp</p>
+            <p>
+              Amp is non-blocking concurrency frequency framework for PHP.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/android.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Android</p>
+            <p>
+              Android is an operating system built by Google designed for mobiile devices.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/angular.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Angualar</p>
+            <p>
+              Angualar is an open source web application platform.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/ansible.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Ansible</p>
+            <p>
+              Ansible is simple and powerful automation engine.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <h1 class="col-2 grey round center">#</h1>
+          <div class="col-10 col-md-8">
+            <p class="sub_head">API</p>
+            <p>
+              An API(Application programming Interface) is a collection of protocols and subroutines for building softwares.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/arduino.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Arduino</p>
+            <p>
+              Arduino is an open source hardware and software company and maker community.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/aspnet.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">ASP.NET</p>
+            <p>
+              ASP.NET is a web frameworkfor building modern web apps and services.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/atom.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Angualar</p>
+            <p>
+              Atom is a open source text-editor built with web technologies.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/awesome.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Awesome Lists</p>
+            <p>
+              An swesome list is a list of awesome things curated by the community.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/aws.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Amazon Web Services</p>
+            <p>
+              Amazon Web Services provides on-demand cloud computing platforms on a subscription basis.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <img class="col-2 logo" src="assets/azure.png" alt="AMP">
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Azure</p>
+            <p>
+              Azure is a cloud computing service created by Microsoft.
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="row line">
+          <h1 class="col-2 grey round center">#</h1>
+          <div class="col-10 col-md-8">
+            <p class="sub_head">Mobile</p>
+            <p>
+              Mobile apps, mobile os, mobile databases & mobile testing frameworks
+            </p>
+            <button type="button" class="btn btn-light d-md-none blck">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-light d-none d-md-block">
+              <img src="assets/star.svg" alt="star">
+              <p>star</p>
+            </button>
+          </div>
+        </div>
+        <div class="row round_border">
+          <div class="col-12">
+            <pre>Load More...</pre>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 col-12 col-md-5 popular_topics">
+        <ul class="footer">
+          <p>Popular Topics</p>
+          <li>
+            <a href="#">react</a></li>
+          <li><a href="#">javascript</a></li>
+          <li><a href="#">css</a></li>
+          <li><a href="#">python</a></li>
+          <li><a href="#">html</a></li>
+          <li><a href="#">e-commerce</a></li>
+          <li><a href="#">python3</a></li>
+          <li><a href="#">e-commerce platform</a></li>
+          <li><a href="#">nci-ictr</a></li>
+          <li><a href="#">solidus extensions</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+
+</html>
