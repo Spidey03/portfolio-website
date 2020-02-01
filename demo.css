@@ -57,8 +57,6 @@ body {}
     background: url("https://wallpapercave.com/wp/wp1911201.jpg");
     display: block;
     background-size: cover;
-
-
 }
 
 .content {
@@ -92,10 +90,15 @@ body {}
 .full_width {
     width: 80%;
     margin-left: 20%;
+
 }
 
 bor {
     border: 1px solid green;
+}
+
+.mar_bottom {
+    margin-bottom: 10%;
 }
 
 .mar_left {
@@ -139,11 +142,17 @@ bor {
     font-weight: 200;
 }
 
-.cards {
+.cards,
+.project,
+.skills {
     margin-top: 60px;
     margin-right: 50px;
     margin-left: 50px;
-    border: 1px solid grey;
+}
+
+.cards,
+.skills {
+    border: 1px solid lightgrey;
 }
 
 .head_section {
@@ -203,8 +212,7 @@ bor {
 
 ul {
     padding: 0px;
-    margin;
-    0px;
+    margin: 0px;
 }
 
 .cards_footer {
@@ -212,4 +220,147 @@ ul {
     padding-top: 15px;
     padding-left: 20px;
     background-color: lightgrey;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project_card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid grey;
+    margin-bottom: 5%;
+}
+
+.project_card>img {
+    height: 250px;
+    maragin: auto;
+}
+
+.project_card>p {
+    margin: 0px;
+    margin-left: 5%;
+}
+
+.project_card>p:first-of-type {
+    color: hsl(180, 100%, 30%);
+    font-size: 25px;
+}
+
+.project_card>div {
+    height: 250px;
+
+}
+
+.project_card:nth-child(1)>div {
+    background: url("https://wallpapercave.com/wp/wp2419343.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(2)>div {
+    background: url("https://wallpapercave.com/wp/wp2419347.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(3)>div {
+    background: url("https://wallpapercave.com/wp/wp2419349.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(4)>div {
+    background: url("https://wallpapercave.com/wp/wp2419350.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(5)>div {
+    background: url("https://wallpapercave.com/wp/wp2419351.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(6)>div {
+    background: url("https://wallpapercave.com/wp/wp2419352.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(7)>div {
+    background: url("https://wallpapercave.com/wp/wp2419353.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(8)>div {
+    background: url("https://wallpapercave.com/wp/wp2419354.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card:nth-child(9)>div {
+    background: url("https://wallpapercave.com/wp/wp2419355.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_card>div>p {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    align-content: center;
+}
+
+}
+
+.skills {}
+
+.skills>.head_section>p {
+    display: inline;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    color: maroon;
+}
+
+.skill_icons {
+    display: flex;
+
+}
+
+.skill_icons>i:nth-last-child(1) {
+    margin-right: auto;
+}
+
+.skill_icons>i {
+    font-size: 110px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.orange {
+    color: orange;
+}
+
+.dodgerblue {
+    color: dodgerblue;
+}
+
+
+.award {
+    width: 45%;
+    border: 1px solid red;
+}
+
+.award_title {
+    color: hsl(180, 100%, 30%);
 }
