@@ -4,6 +4,9 @@ body {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    aliign-items: center;
     margin: 0px;
 }
 
@@ -25,9 +28,12 @@ p {
     background-size: 50%;
     background-position: 90% 10%;
     background-repeat: no-repeat;
-    margin-top: 20%;
-    height: 50%;
-    width: 100%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    height: 400px;
+    width: 637px;
     background-color: #262626;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -46,7 +52,7 @@ p {
 
 .current_weather {
     height: 100%;
-
+    width: 100%;
     background: linear-gradient(135deg, rgba(114, 237, 242, 0.8), rgba(81, 81, 229, 0.8));
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -82,12 +88,14 @@ p {
 .today_info>div {
     margin-top: 4%;
     display: flex;
-    tex-align: center align-items: center;
+    tex-align: center;
+    align-items: center;
 }
 
 .today_info>div>img {
-    width: 12px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
+    padding-right: 3px;
 }
 
 .today_weather {
@@ -165,7 +173,7 @@ p {
     flex-direction: column;
     align-items: center;
     border-radius: 10%;
-    font-size: 215x;
+    font-size: 21px;
     font-weight: 600;
     width: 25%;
     justify-content: space-around;
@@ -181,11 +189,6 @@ p {
 
 }
 
-.week_day {}
-
-.week_day>img {
-    filter: invert(100%);
-}
 
 .week_day:first-child,
 .week_day:first-child>* {
@@ -206,6 +209,7 @@ p {
 .button>img {
     height: 15px;
     width: 15px;
+    padding-right: 5px;
 }
 
 .button>p {
